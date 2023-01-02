@@ -80,9 +80,20 @@ brew install watch
 brew install ctop
 
 # fonts (https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions)
+# set font family in vscode
+# "editor.fontFamily": "JetBrains Mono",
+# "editor.fontLigatures": true,
 brew tap homebrew/cask-fonts
 brew install  --cask  font-jetbrains-mono
 brew install  --cask  font-hack-nerd-font
+
+# not in use
+### Need to set the visual studio code font 
+### For the DejaVu, use "DejaVuSansMono Nerd Font"
+###  "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font"
+### Download from https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/complete/DejaVu%20Sans%20Mono%20Nerd%20Font%20Complete.ttf
+
+
 
 ## Browser
 #brew cask install google-chrome
@@ -225,13 +236,6 @@ mkdir -p ~/Documents/development
 
 ### For Dotnet
 #brew install  --cask dotnet-sdk
-
-### Need to set the visual studio code font 
-
-### For the DejaVu, use "DejaVuSansMono Nerd Font"
-###  "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font"
-### Download from https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/complete/DejaVu%20Sans%20Mono%20Nerd%20Font%20Complete.ttf
-
 
 ## For github Desktop
 #brew  install --cask --appdir="/Applications" github
