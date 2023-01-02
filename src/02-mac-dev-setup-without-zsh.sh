@@ -125,7 +125,10 @@ nvm install node                                                                
 
 ## Java
 
-brew install java # this version 16 / 1.16 from openjdk
+curl -s "https://get.sdkman.io" | bash                                                               # sdkman is a tool to manage multiple version of java
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java
+
 # brew install maven # do not want to use maven
 brew install gradle 
 brew install gradle-completion 
@@ -187,6 +190,9 @@ brew install docker-machine-completion
 brew install awscli # Official command line
 # pip3 install saws    # A supercharged AWS command line interface (CLI).
 
+
+
+
 # Gcloud sdk
 brew install --cask google-cloud-sdk
 echo 'source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"' >> $MAC_SETUP_PROFILE
@@ -220,7 +226,7 @@ mkdir -p ~/Documents/development
 ### For Dotnet
 #brew install  --cask dotnet-sdk
 
-### Need to set the visual studio code font to be 
+### Need to set the visual studio code font 
 
 ### For the DejaVu, use "DejaVuSansMono Nerd Font"
 ###  "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font"
@@ -294,8 +300,17 @@ yarn global add @vue/cli
 ### https://www.cncf.io/wp-content/uploads/2020/08/CNCF-Webinar-Navigating-the-Sea-of-Local-Clusters-.pdf
 ### https://habd.as/post/kubernetes-macos-k3s-k3d-rancher/
 # brew install --cask lens
-brew install krew
-brew install k3d helm kubectl
+
+brew install k3d helm 
+# K8S command line
+brew install kubectx
+brew install asdf
+
+echo 'echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" ' >>$MAC_SETUP_PROFILE
+asdf plugin add kubectl
+asdf install kubectl latest
+
+
 # for generate infra dependency graph
 brew install graphviz inframap
 brew install istio

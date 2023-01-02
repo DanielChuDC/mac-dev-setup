@@ -125,7 +125,10 @@ nvm install node                                                                
 
 ## Java
 
-brew install java # this version 16 / 1.16 from openjdk
+curl -s "https://get.sdkman.io" | bash                                                               # sdkman is a tool to manage multiple version of java
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+sdk install java
+
 # brew install maven # do not want to use maven
 brew install gradle 
 brew install gradle-completion 
