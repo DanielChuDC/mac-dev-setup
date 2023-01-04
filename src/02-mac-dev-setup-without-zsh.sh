@@ -98,6 +98,7 @@ brew install  --cask  font-hack-nerd-font
 ## Browser
 #brew cask install google-chrome
 #brew cask install brave-browser
+brew install --cask microsoft-edge
 brew install --cask firefox
 
 # Music / Video
@@ -119,6 +120,9 @@ brew install --cask  postman                                                    
 # IDE
 #brew install --cask  jetbrains-toolbox
 brew install --cask  visual-studio-code
+{
+  echo 'export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"'
+}>>$MAC_SETUP_PROFILE
 
 # Language
 ## Node / Javascript
@@ -345,3 +349,6 @@ brew install --cask cloudflare-warp
 
 # for dmg file 
 brew install --cask osirix-quicklook
+
+# for network analysis
+brew install nmap
