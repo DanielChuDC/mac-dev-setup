@@ -320,6 +320,7 @@ asdf install kubectl latest
 
 
 # for generate infra dependency graph
+brew install doxygen
 brew install graphviz inframap
 brew install istio
 
@@ -352,3 +353,4 @@ brew install --cask osirix-quicklook
 
 # for network analysis
 brew install nmap
+
