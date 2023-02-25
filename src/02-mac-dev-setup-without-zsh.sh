@@ -354,3 +354,5 @@ brew install --cask osirix-quicklook
 # for network analysis
 brew install nmap
 
+# for security analysis
+brew install --cask burp-suite
