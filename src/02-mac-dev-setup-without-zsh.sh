@@ -356,3 +356,7 @@ brew install nmap
 
 # for security analysis
 brew install --cask burp-suite
+
+
+# for analysis
+brew install smartmontools
