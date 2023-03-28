@@ -106,7 +106,7 @@ brew install  --cask  spotify
 brew install  --cask  vlc
 
 # Productivity
-brew install  --cask  kap                                                                                 # video screenshot
+# brew install  --cask  kap                                                                                 # video screenshot
 # brew install  --cask  rectangle                                                                           # manage windows
 
 # Communication
