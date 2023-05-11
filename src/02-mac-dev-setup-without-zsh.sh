@@ -314,7 +314,7 @@ brew install k3d helm
 brew install kubectx
 brew install asdf
 
-echo 'echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" ' >>$MAC_SETUP_PROFILE
+echo 'echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" ' >> ~/.zshrc
 asdf plugin add kubectl
 asdf install kubectl latest
 
