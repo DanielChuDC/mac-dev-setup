@@ -40,17 +40,7 @@ git secrets --register-aws --global
 git secrets --install ~/.git-templates/git-secrets
 git config --global init.templateDir ~/.git-templates/git-secrets
 
-# ZSH
-# brew install zsh zsh-completions    # problem with mac default zsh vs brew install zsh                                                                  # Install zsh and zsh completions
-# {
-#   echo "if type brew &>/dev/null; then"
-#   echo "  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH"
-#   echo "  autoload -Uz compinit"
-#   echo "  compinit"
-#   echo "fi"
-# } >>$MAC_SETUP_PROFILE
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"# Install oh-my-zsh on top of zsh to getting additional functionality
 # Terminal replacement https://www.iterm2.com
 brew install --cask  iterm2
 # Pimp command line
@@ -94,10 +84,9 @@ brew install  --cask  font-hack-nerd-font
 ### Download from https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/complete/DejaVu%20Sans%20Mono%20Nerd%20Font%20Complete.ttf
 
 
-
 ## Browser
-#brew cask install google-chrome
-#brew cask install brave-browser
+# brew install --cask google-chrome
+# brew install --cask brave-browser
 brew install --cask microsoft-edge
 brew install --cask firefox
 
@@ -198,8 +187,6 @@ brew install --cask docker
 
 brew install bash-completion
 brew install docker-completion
-brew install docker-compose-completion
-brew install docker-machine-completion
 
 # AWS command line
 brew install awscli # Official command line
@@ -360,3 +347,11 @@ brew install --cask burp-suite
 
 # for analysis
 brew install smartmontools
+
+# supabase , firebase alternative
+brew install supabase/tap/supabase
+
+
+
+# ZSH
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"# Install oh-my-zsh on top of zsh to getting additional functionality
