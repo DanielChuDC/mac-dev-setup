@@ -257,7 +257,7 @@ brew --cask azure-cli
 
 ### For google drive back up
 #brew install --cask google-backup-and-sync
-brew install --cask google-drive
+# brew install --cask google-drive
 
 
 ## Install android studio for mobile development
