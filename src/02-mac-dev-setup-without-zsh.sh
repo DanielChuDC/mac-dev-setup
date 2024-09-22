@@ -244,16 +244,16 @@ brew install --cask zoom
 ## install vmfusion and virtual box
 ## Follow from https://gist.github.com/tomysmile/0618f1aa16341706940ed36b423b431c
 brew install --cask vmware-fusion
-brew install --cask virtualbox
-brew install --cask vagrant
-brew install --cask vagrant-manager
+# brew install --cask virtualbox
+# brew install --cask vagrant
+# brew install --cask vagrant-manager
 
 
 ## For video editing
 #brew --cask uninstall camtasia
 
 ### For AZURE
-brew --cask azure-cli
+# brew --cask azure-cli
 
 ### For google drive back up
 #brew install --cask google-backup-and-sync
@@ -328,10 +328,11 @@ brew install freetype imagemagick
 # For hardware development
 brew install --cask arduino
 # PDC design
-brew install --cask kicad
+# brew install --cask kicad
 
 # note taking
 brew install --cask notion
+brew install --cask obsidian
 
 # # logitech
 # brew install homebrew/cask-drivers/logitech-options
