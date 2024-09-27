@@ -80,10 +80,10 @@ brew install  --cask  font-hack-nerd-font
 ### Download from https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/DejaVuSansMono/Regular/complete/DejaVu%20Sans%20Mono%20Nerd%20Font%20Complete.ttf
 
 
-## Browser
+## Browser please download from the official side
 # brew install --cask google-chrome
 # brew install --cask brave-browser
-brew install --cask microsoft-edge
+# brew install --cask microsoft-edge
 # brew install --cask firefox
 
 # Music / Video
@@ -95,7 +95,6 @@ brew install  --cask  vlc
 brew install --cask   telegram
 
 # IDE
-#brew install --cask  jetbrains-toolbox
 brew install --cask  visual-studio-code
 {
   echo 'export PATH="/Applications/Visual Studio Code.app/Contents/Resources/app/bin:$PATH"'
@@ -155,9 +154,9 @@ mkdir -p ~/Documents/development
 
 
 # Install video conference, webex, microsoft team,zoom
-#brew install --cask webex-meetings
-brew  install --cask microsoft-teams
-brew install --cask zoom
+# #brew install --cask webex-meetings
+# brew  install --cask microsoft-teams
+# brew install --cask zoom
 
 ## install vmfusion and virtual box
 ## Follow from https://gist.github.com/tomysmile/0618f1aa16341706940ed36b423b431c
