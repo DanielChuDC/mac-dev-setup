@@ -182,17 +182,18 @@ brew install --cask vmware-fusion
   eval "$(pyenv init --path)"
 }>>"$HOME/.profile"
 
+{
+  eval "$(pyenv init --path)"
+  eval "$(pyenv init -)"
+  eval "$(pyenv virtualenv-init -)"
+}>>"$HOME/.zshrc"
+
 
 
 
 # for drawio , software engineering diagram
 brew install --cask drawio
 
-
-# For hardware development
-brew install --cask arduino
-# PDC design
-# brew install --cask kicad
 
 # note taking
 brew install --cask notion
@@ -213,14 +214,11 @@ brew install nmap
 # for security analysis
 brew install --cask burp-suite
 
-
 # for analysis
 brew install smartmontools
 
-# supabase , firebase alternative
-brew install supabase/tap/supabase
 
-
+brew install ffmpeg
 
 # ZSH
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"# Install oh-my-zsh on top of zsh to getting additional functionality
